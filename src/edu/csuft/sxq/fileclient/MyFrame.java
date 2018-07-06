@@ -39,6 +39,9 @@ public class MyFrame extends JFrame{
 	 */
 	public MyFrame() {
 		
+		//宋晓琪
+		
+		
 		//设置题目，大小，布局
 		setTitle("文件列表");
 		setSize(600, 500);
@@ -120,7 +123,16 @@ public class MyFrame extends JFrame{
 			public void actionPerformed(ActionEvent arg0) {
 				int file[]=ta.getSelectedRows();//返回选中的行的序号
 				if(file.length>0) {
-					
+					for(int n=0;n<file.length;n++) {
+						//在arrayList中找到选中的文件，删除他
+						for(int i=0;i<arrayList.size();i++) {
+							
+							if(((UserFile)arrayList.get(i)).equals
+									((String)model.getValueAt(file[n], 0))) {
+							
+							}
+						}
+					}
 				}
 				else
 					JOptionPane.showMessageDialog(MyFrame.this,"未选中!!!");
