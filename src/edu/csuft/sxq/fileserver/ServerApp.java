@@ -1,4 +1,5 @@
 package edu.csuft.sxq.fileserver;
+
 /**
  * 网盘服务器的启动器
  * 
@@ -8,9 +9,7 @@ package edu.csuft.sxq.fileserver;
 public class ServerApp {
 
 	public static void main(String[] args) {
-		Server server=new Server();
+		Server server = new Server();
 		server.start();
-
 	}
-
 }

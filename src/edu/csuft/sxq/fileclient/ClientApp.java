@@ -9,7 +9,6 @@ package edu.csuft.sxq.fileclient;
 public class ClientApp {
 
 	public static void main(String[] args) {
-		Client client=new Client();
-		client.start();
+		new MyFrame();
 	}
 }
