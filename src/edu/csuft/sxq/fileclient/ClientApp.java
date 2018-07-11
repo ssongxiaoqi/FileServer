@@ -3,7 +3,7 @@ package edu.csuft.sxq.fileclient;
 /**
  * ¿Í»§¶ËÆô¶¯Æ÷
  * 
- * @author ËÎÏşç÷(s_xiaoqi@qq.com)
+ * @author ËÎÏşç÷
  *
  */
 public class ClientApp {
