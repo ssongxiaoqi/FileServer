@@ -164,8 +164,9 @@ public class MyFrame extends JFrame {
 
 				if (file != null) {
 					client.downFile(file, (String) model.getValueAt(i, 0));// 下载文件
+					JOptionPane.showMessageDialog(MyFrame.this, "已经完成下载任务");
 				}
-				JOptionPane.showMessageDialog(MyFrame.this, "已经完成下载任务");
+				
 			}
 		});
 
