@@ -1,9 +1,10 @@
 package edu.csuft.sxq.fileclient;
 
+
 /**
- * 客户端启动器
+ * 客户启动端
  * 
- * @author 宋晓琪
+ * @author 宋晓琪（s_xiaoqi@qq.com）
  *
  */
 public class ClientApp {
